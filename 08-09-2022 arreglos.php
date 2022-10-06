@@ -58,6 +58,36 @@ $arreglo_4 = [
         foreach($value as $key_2 => $value_2){
             echo $key_2 . ": " . $value_2;
         }
-        
+        echo "<hr>";
     }
+/*
+    <ul>
+    <li>
+    $arreglo_5 = [
+        [
+            "nombre" => "Juan Perez",
+            "edad" => 21,
+            "ocupacion" => "Desarrollador Web"
+        ],
+        [
+            "nombre" => "Pedro",
+            "edad" => 36,
+            "ocupacion" => "Vendedor"
+        ],
+        [
+            "nombre" => "Diego",
+            "edad" => 25,
+            "ocupacion" => "Estudiante"
+        ]
+        ];
+        foreach($arreglo_5 as $key => $value){
+            foreach($value as $key_3 => $value_3){
+                echo $key_3 . ": " . $value_3;
+            }
+            echo "<hr>";
+        }
+    
+</li>
+
+</ul>*/
 
